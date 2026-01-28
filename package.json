@@ -1,0 +1,25 @@
+{
+    "name": "moltbot-browser-extract",
+    "version": "1.0.0",
+    "description": "Standalone Moltbot browser tool with Groq Agent",
+    "type": "module",
+    "main": "index.ts",
+    "scripts": {
+        "start": "tsx index.ts",
+        "test": "tsx test-browser.ts"
+    },
+    "dependencies": {
+        "playwright-core": "^1.58.0",
+        "groq-sdk": "^0.9.0",
+        "ws": "^8.18.0",
+        "dotenv": "^16.4.5",
+        "@sinclair/typebox": "0.34.47",
+        "chrome-launcher": "^1.1.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.0",
+        "@types/node": "^22.0.0",
+        "@types/ws": "^8.5.12",
+        "tsx": "^4.19.0"
+    }
+}
